@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    
+}
+section{
+    height: 500px;
+    padding-bottom: 100px;
+}
+h1{
+    font-size: 60px;
+}
+span{
+    color: #FFD25B;
+}
+.anchor-button{
+text-decoration: none;
+color: rgb(255, 255, 255);
+background-image: linear-gradient(to right,rgb(243, 207, 3),#3F196A);
+border-radius: 10px;
+padding: 10px 70px;
+font-size: 25px;
+
+}
+
+.top-banner{
+    display: flex;
+    background-image: url(../images/top-banner.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+
+.chef-div{
+    width: 40%;
+    margin-left: 2%;
+    padding-left: 5%;
+}
+.chef-div img{
+    width: 100%;
+}
+.about-me{
+    display: flex;
+    background-image: url(../images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+   
+    background-size: cover;
+   
+    
+}
