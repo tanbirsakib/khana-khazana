@@ -1,140 +1,163 @@
-body{
+body {
     font-family: 'Teko', sans-serif;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     margin: 0;
 }
-p{
+
+p {
     font-size: 20px;
 }
-section{
+
+section {
     height: 500px;
     padding-bottom: 100px;
     margin-bottom: 50px;
 }
-h1{
+
+h1 {
     font-size: 60px;
 }
-span{
+
+span {
     color: #FFD25B;
 }
-.anchor-button{
+
+.anchor-button {
     text-decoration: none;
     color: rgb(255, 255, 255);
-    background-image: linear-gradient(to right,rgb(243, 207, 3),#3F196A);
+    background-image: linear-gradient(to right, rgb(243, 207, 3), #3F196A);
     border-radius: 10px;
     padding: 10px 70px;
     font-size: 25px;
-
 }
 
-.top-banner{
+.top-banner {
     display: flex;
     background-image: url(../images/top-banner.svg);
     background-repeat: no-repeat;
     background-position: top right;
 }
 
-
-.chef-div{
+.chef-div {
     width: 40%;
     margin-left: 2%;
     padding-left: 5%;
 }
-.chef-div img{
+
+.chef-div img {
     width: 100%;
 }
-.about-me{
+
+.about-me {
     display: flex;
     background-image: url(../images/shapes/Frame\ 57.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.color-heading{
+
+.color-heading {
     color: #6cb6ee;
 }
 
-.recipe-list{
+.recipe-list {
     width: 1000px;
     height: 130px;
-    margin: auto;   
+    margin: auto;
     justify-content: center;
-    padding:0 10px 20px 10px;
+    padding: 0 10px 20px 10px;
     background-color: #fcfcfc;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
-
-.recipe-container{
+.recipe-container {
     margin-top: 30px;
     display: flex;
-  
 }
-.recipe-cart{
+
+.recipe-cart {
     width: 30%;
     height: 500px;
-    margin:0 1%;
+    margin: 0 1%;
     background-color: #fcfcfc;
-    padding:10px 15px;
+    padding: 10px 15px;
     border-radius: 10px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
-.recipe-cart img{
+
+.recipe-cart img {
     width: 100%;
     height: 300px;
     border-radius: 5px;
 }
 
-.social-media{
+.social-media {
     display: flex;
     justify-content: space-around;
     margin: 1%;
     border-radius: 10px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
-.footer-section{
+
+.social-media h1,
+p {
+    color: #78788c;
+}
+
+.footer-section {
     height: 150px;
     margin-top: 100px;
-    background-color : #0B0D17;
+    background-color: #0B0D17;
 }
-.footer-section h1{
+
+.footer-section h1 {
     color: white;
-   text-align: center;
-   padding-top: 10px;
+    text-align: center;
+    padding-top: 10px;
 }
 
-.form{width:340px;height:440px;background:#e6e6e6;border-radius:8px;box-shadow:0 0 40px -10px #000;margin:calc(50vh - 220px) auto;padding:20px 30px;max-width:calc(100vw - 40px);box-sizing:border-box;font-family:'Montserrat',sans-serif;position:relative}
-.form h2{
-    margin:10px 0;
-    padding-bottom:10px;
-    width:180px;
-    color:#78788c;
-    border-bottom:3px solid #78788c;
-}
-input{
-    width:100%;
-    padding:10px;
-    box-sizing:border-box;
-    background:none;
-    outline:none;
-    resize:none;
-    border:0;
-    font-family:'Montserrat',sans-serif;
-    border-bottom:2px solid #bebed2
+.form {
+    width: 340px;
+    height: 440px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    margin: calc(50vh - 220px) auto;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    position: relative
 }
 
-button{
-    float:right;
-    padding:8px 12px;
-    margin:8px 0 0;
-    font-family:'Montserrat',sans-serif;
-    border:2px solid #78788c;
-    background:0;
-    color:#5a5a6e;
-    cursor:pointer;
-    
-}    
+.form h2 {
+    margin: 10px 0;
+    padding-bottom: 10px;
+    width: 180px;
+    color: #78788c;
+    border-bottom: 3px solid #78788c;
+}
 
-footer p{
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: none;
+    outline: none;
+    resize: none;
+    border: 0;
+    border-bottom: 2px solid #bebed2;
+}
+
+.send-button {
+    text-decoration: none;
+    float: right;
+    padding: 8px 12px;
+    margin: 8px 0 0;
+    border: 2px solid #78788c;
+    background: 0;
+    color: #5a5a6e;
+    cursor: pointer;
+}
+
+footer p {
     text-align: center;
     color: white;
 }
